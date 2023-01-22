@@ -2,10 +2,10 @@
   "name": "hripnvbot",
   "version": "1.0.0",
   "description": "To make a bot",
-  "main": "index.js",
+  "main": "indexx.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon indexx.js",
+    "start": "node indexx.js"
   },
   "repository": {
     "type": "git",
