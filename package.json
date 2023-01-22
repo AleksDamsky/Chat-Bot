@@ -1,0 +1,28 @@
+{
+  "name": "hripnvbot",
+  "version": "1.0.0",
+  "description": "To make a bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksDamsky/rep_for_anotherNout.git"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Aleks Hripunov <aahripunov@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksDamsky/rep_for_anotherNout/issues"
+  },
+  "homepage": "https://github.com/AleksDamsky/rep_for_anotherNout#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20"
+  }
+}
