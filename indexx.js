@@ -7,7 +7,7 @@ let bot = new TelegramApi(token, {polling: true});
 bot.on('message', async msg => { // обработчик, принимает сообщение и создает функцию
     const text = msg.text;
     const chatId = msg.chat.id;
-    // bot.sendMessage(chatId, `Ты написал мне ${text}`);
+    // console.log(msg);
 
 if(text === '/start'){
     await bot.sendMessage(chatId, `Привет, ${msg.from.username}`);
@@ -15,6 +15,7 @@ if(text === '/start'){
 }
 
 if(text === '/info'){
-    await bot.sendMessage(chatId)
+    await bot.sendMessage(chatId,`Тебя зовут ${msg.from.first_name} ${msg.from.last_name}.
+Давай дружить!`);
 }
 });
